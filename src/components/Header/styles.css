@@ -1,0 +1,16 @@
+.title-bar {
+  background: var(--color-very-light-gray);
+  width: 100%;
+  height: 6.5rem;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-bar img {
+  margin: 2.5rem;
+  cursor: pointer;
+}

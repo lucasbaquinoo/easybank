@@ -1,0 +1,56 @@
+.intro {
+  margin-top: -9rem;
+  position: static;
+}
+
+.intro-page {
+  background: url('../../assets/images/bg-intro-mobile.svg');
+  background-attachment: scroll;
+  background-position-y: top;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 95%;
+  overflow: hidden;
+}
+
+.intro-page img {
+  width: 100%;
+}
+
+#mockup {
+  margin-top: -12.0rem;
+  height: auto;
+}
+
+.description-container {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.description-container h1 {
+  font: 400 5rem 'Public Sans';
+  color: var(--color-dark-blue);
+}
+
+.description-container p {
+  margin-top: 1.8rem;
+  font: 400 1.8rem 'Public Sans';
+  line-height: 2.5rem;
+  color: var(--color-grayish-blue);
+}
+
+.description-container button {
+  margin-top: 4.5rem;
+  height: 5.0rem;
+  width: 20rem;
+  background-image: linear-gradient(to right, var(--color-lime-green), var(--color-bright-cyan));
+  font: 700 1.6rem 'Public Sans';
+  color: var(--color-white);
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
